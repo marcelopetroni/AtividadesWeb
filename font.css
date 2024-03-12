@@ -1,4 +1,37 @@
 html {
     background-color: rgb(216, 247, 255);
+}
+
+header {
     font-family: "Manrope", sans-serif;
+    margin-left: 22px;
+    color: rgb(34, 50, 54);
+}
+.paragrafo-container {
+    font-family:Arial, Helvetica, sans-serif;
+    text-decoration: underline;
+    padding: 22px;
+}
+
+.hyperlinks-container {
+    display: flex;
+    flex-direction: column;
+    padding: 22px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+}
+
+.hyperlinks-container a {
+    text-decoration: none;
+    color: black;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 2px;
+    font-size: 14px;
+    gap: 6px;
+}
+
+.hyperlinks-container p {
+    font-size: 18px;
 }

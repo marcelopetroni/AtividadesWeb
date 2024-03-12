@@ -12,3 +12,16 @@ html {
     font-family: "Roboto", sans-serif;
     color: white;
 }
+
+.link-menu {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 5px;
+    text-decoration: none;
+    color: black;
+    font-size: 14px;
+    font-family: "Manrope", sans-serif;
+    font-weight: bold;
+    gap: 6px;
+}
