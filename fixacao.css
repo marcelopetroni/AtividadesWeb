@@ -2,3 +2,32 @@ html {
     background-color: rgb(216, 247, 255);
     font-family: "Manrope", sans-serif;
 }
+
+header {
+    font-family: "Manrope", sans-serif;
+    color: black;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+}
+header h1 {
+    font-size: 40px;
+    color: rgb(34, 50, 54);
+}
+header h3 {
+    font-size: 20px;
+    margin: 0;
+}
+.link-menu {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    color: black;
+    font-size: 14px;
+    font-family: "Manrope", sans-serif;
+    font-weight: bold;
+    gap: 6px;
+}
