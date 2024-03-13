@@ -1,2 +1,2 @@
 # AtividadesCSS
-Acesse o deploy do site pelo link: 
+Acesse o deploy do site pelo link: https://atividades-css.vercel.app/
