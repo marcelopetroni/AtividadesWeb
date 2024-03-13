@@ -1,8 +1,12 @@
 html {
+    margin: 0;
     background-color: rgb(216, 247, 255);
     font-family: "Manrope", sans-serif;
 }
-
+html, body {
+    height: 100%;
+    margin: 0;
+}
 header {
     font-family: "Manrope", sans-serif;
     color: black;
@@ -30,4 +34,83 @@ header h3 {
     font-family: "Manrope", sans-serif;
     font-weight: bold;
     gap: 6px;
+}
+main {
+    min-height: 80vh;
+    display: grid;
+    grid-template-columns: repeat(1, minmax(250px, 1fr));
+    justify-content: center;
+    box-sizing: border-box;
+}
+.foto {
+    height: 200px;
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+}
+.calcado-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    align-items: center;
+    justify-items: center;
+    gap: 10px;
+}
+.calcado {
+    box-shadow: 1px 5px 40px 0px rgba(0, 0, 0, 0.3);
+    background-color: green;
+    border: 2.5px solid green;
+    border-radius: 6px;
+    width: 250px;
+    height: 300px;
+}
+.calcado:hover {
+    cursor: pointer;
+}
+.calcado1 {
+    background-image: url(https://images.unsplash.com/photo-1575537302964-96cd47c06b1b?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+}
+.calcado2 {
+    background-image: url(https://images.unsplash.com/photo-1539185441755-769473a23570?q=80&w=2071&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+}
+.calcado3 {
+    background-image: url(https://images.unsplash.com/photo-1617606002779-51d866bdd1d1?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+}
+.calcado4 {
+    background-image: url(https://images.unsplash.com/photo-1551107696-a4b0c5a0d9a2?q=80&w=2012&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+}
+.calcado5 {
+    background-image: url(https://images.unsplash.com/photo-1570464197285-9949814674a7?q=80&w=1973&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+}
+.description, .price {
+    display: flex;
+    justify-content: center;
+    padding: 8px;
+    font-weight: 500;
+    font-family: "Manrope", sans-serif;
+}
+.description {
+    font-size: 18px;
+    color: black;
+}
+.price-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.price-container i {
+    color: black;
+}
+.price {
+    font-size: 16px;
+    color: black;
+}
+footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: static;
+    bottom: 0;      
+    width: 100%;
+    height: 80px;
+    background-color: rgb(210, 230, 234);
 }
