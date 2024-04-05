@@ -1,0 +1,36 @@
+html {
+    background-image: url(https://images.unsplash.com/photo-1546177823-51a695e3cc56?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D)
+}
+main {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.input-container {
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+}
+.input-container input {
+    font-family: 'Manrope', sans-serif;
+    border-radius: 4px;
+    border: 0.2px solid rgb(131, 131, 131);
+}
+.input-container button {
+    font-family: 'Manrope', sans-serif;
+    border-radius: 4px;
+    border: 0.2px solid rgb(131, 131, 131);
+}
+.input-container button:hover {
+    cursor: pointer;
+}
+.radioButton-container {
+    font-family: 'Manrope', sans-serif;
+    display: flex;
+    flex-direction: row;
+}
+.radioButton-container :hover {
+    cursor: pointer;
+}
