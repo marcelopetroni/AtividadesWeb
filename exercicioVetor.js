@@ -2,7 +2,7 @@ document.addEventListener('DOMContentLoaded', function () {
     const global = [];
     const armazenarValores = document.querySelector('.forms-container');
     const campo = document.querySelector('.input');
-    const exibicao = document.querySelector('.output');
+    const exibicao = document.querySelector('.output-container');
 
     armazenarValores.addEventListener('submit', function (e) {
         e.preventDefault();
@@ -13,8 +13,13 @@ document.addEventListener('DOMContentLoaded', function () {
     });
 
     const exibir = () => {
-        for (let index = 0; index < exibicao.length; index++) {
-            exibicao.innerText = global[i];
+        exibicao.innerHTML = '';
+        
+        for (let i = 0; i < global.length; i++) {
+
+            const values = document.createElement('div');
+            values.innerText = global[i];
+            exibicao.appendChild(values);
         }
     }
 });
