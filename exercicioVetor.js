@@ -39,6 +39,7 @@ document.addEventListener('DOMContentLoaded', function () {
     })
 
     cleanButton.addEventListener('click', () => {
-        this.location.reload()
+        global.splice(0, global.length)
+        exibir()
     })
 });
