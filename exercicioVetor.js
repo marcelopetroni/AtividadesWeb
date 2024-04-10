@@ -5,6 +5,8 @@ document.addEventListener('DOMContentLoaded', function () {
     const campo = document.querySelector('.input');
     const exibicao = document.querySelector('.output-container');
     const color = document.querySelector('.color-picker');
+    const removeButton = document.querySelector('.remove-button');
+    const cleanButton = document.querySelector('.clean-button');
 
     armazenarValores.addEventListener('submit', function (e) {
         e.preventDefault();
@@ -18,7 +20,6 @@ document.addEventListener('DOMContentLoaded', function () {
         exibicao.innerHTML = '';
         
         for (i = 0; i < global.length; i++) {
-
             const values = document.createElement('div');
             const numeracao = document.createElement('span')
             const texto = document.createTextNode(global[i])
@@ -32,5 +33,8 @@ document.addEventListener('DOMContentLoaded', function () {
             exibicao.appendChild(values);
         }
     }
-    
+    removeButton.addEventListener('click', ()=> {
+        global.shift()
+        exibir()
+    })
 });
