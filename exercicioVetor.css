@@ -18,7 +18,7 @@ main {
     display: flex;
     flex-direction: column;
     gap: 8px;
-    background: rgba( 255, 255, 255, 0.25 );
+    background: rgba( 255, 255, 255, 0.2);
     box-shadow: 0 6px 20px 0 rgba(47, 51, 116, 0.3);
     backdrop-filter: blur( 4px );
     -webkit-backdrop-filter: blur( 4px );
@@ -83,7 +83,7 @@ main {
     min-width: 50px;
     padding: 6px;
     background: rgba( 255, 255, 255, 0.25 );
-    box-shadow: 0 6px 20px 0 rgba(47, 51, 116, 0.3);
+    box-shadow: 0 6px 20px 0 rgba(47, 51, 116, 0.2);
     backdrop-filter: blur( 4px );
     -webkit-backdrop-filter: blur( 4px );
     border-radius: 10px;
