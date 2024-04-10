@@ -37,4 +37,8 @@ document.addEventListener('DOMContentLoaded', function () {
         global.shift()
         exibir()
     })
+
+    cleanButton.addEventListener('click', () => {
+        this.location.reload()
+    })
 });
